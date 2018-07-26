@@ -53,32 +53,6 @@ public class App {
 		
 		//只印出json_kai的child
 		System.out.println("kai's child------>"+json_kai.getJSONObject("child"));
-		
-		
-//		String name = json.getString("name");
-//		int age = json.getInt("age");
-//		String live = json.getString("live");
-//
-//		JSONArray array = new JSONArray();
-//		array.put(json);
-//		array.put(json);
-//		array.put(json);
-//
-//		System.out.println(array.toString());
-//
-//		for (int i = 0; i < array.length(); i++) {
-//			JSONObject j = array.getJSONObject(i);
-//			System.out.println(">>>>> "+j.toString());
-//		}
-//
-//		JSONObject json2 = new JSONObject();
-//		json2.put("name", "lucas");
-//		json2.put("age", 28);
-//		json2.put("live", "Taipei");
-//		
-//		json.put("child", json2);
-//		System.out.println("~~ "+json.toString());
-//		System.out.println("~~ "+json.getJSONObject("child").toString());
 
 	}
 
